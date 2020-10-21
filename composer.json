@@ -1,10 +1,10 @@
 {
-    "name": "anchnet/aliyun-openapi-php-sdk",
+    "name": "mrlaozhou/aliyun-sdk",
     "description": "Alibaba Cloud SDK for PHP",
     "license": "Apache-2.0",
     "authors": [{
-        "name": "wudi",
-        "email": "wudi@anchent.com"
+        "name": "mrlaozhou",
+        "email": "zgsself@163.com"
     }],
     "require": {
         "guzzlehttp/guzzle": "^6.3"
@@ -60,7 +60,8 @@
             "TeslaMaxCompute\\":"aliyun-php-sdk-teslamaxcompute/TeslaMaxCompute",
             "Ubsms\\":"aliyun-php-sdk-ubsms/Ubsms",
             "Vod\\":"aliyun-php-sdk-vod/Vod",
-            "Vpc\\": "aliyun-php-sdk-vpc/Vpc"
+            "Vpc\\": "aliyun-php-sdk-vpc/Vpc",
+            "OSS\\": "aliyun-php-sdk-oss/src/OSS"
         }
     },
     "autoload-dev": {
